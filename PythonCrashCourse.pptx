@@ -1,0 +1,93 @@
+Slide 1: Python Crash Course
+- Inspired by Eric Matthes
+- Introduction to Python 3 Programming
+
+Slide 2: What is Python?
+- High-level, interpreted programming language
+- Great for beginners and professionals
+- Used for web, data science, automation, games
+
+Slide 3: Variables and Data Types
+- Variables store data
+- Basic types: int, float, str, bool
+- Example:
+  age = 21
+  name = "Alice"
+  height = 1.75
+  is_student = True
+
+Slide 4: Control Flow
+- Conditional: if, elif, else
+- Loops: for, while
+- Example:
+  if age > 18:
+      print("Adult")
+  else:
+      print("Minor")
+
+Slide 5: Functions
+- Reusable blocks of code
+- Define with def
+- Example:
+  def greet(name):
+      print(f"Hello, {name}!")
+  greet("Alice")
+
+Slide 6: Lists, Dictionaries, Tuples
+- List: ordered, mutable
+- Tuple: ordered, immutable
+- Dict: key-value pairs
+- Example:
+  fruits = ["apple", "banana"]
+  coords = (10, 20)
+  person = {"name": "Alice", "age": 21}
+
+Slide 7: User Input and Output
+- input() for user input (returns string)
+- print() for output
+- Example:
+  name = input("Enter your name: ")
+  print("Hello,", name)
+
+Slide 8: Error Handling
+- Use try, except for errors
+- Example:
+  try:
+      result = 10 / 0
+  except ZeroDivisionError:
+      print("Cannot divide by zero!")
+
+Slide 9: Classes and OOP
+- Object-Oriented Programming
+- Define a class with class, create objects
+- Example:
+  class Dog:
+      def __init__(self, name):
+          self.name = name
+      def bark(self):
+          print("Woof!")
+  fido = Dog("Fido")
+  fido.bark()
+
+Slide 10: Files and Exceptions
+- Read/write files with open()
+- Handle file errors with exceptions
+- Example:
+  try:
+      with open("data.txt") as f:
+          content = f.read()
+  except FileNotFoundError:
+      print("File not found.")
+
+Slide 11: Modules and Packages
+- Reuse code with modules and packages
+- Import with import
+- Example:
+  import math
+  print(math.sqrt(16))
+
+Slide 12: Next Steps
+- Practice coding!
+- Explore Python libraries
+- Build projects (web, data, games)
+- Resources: Python docs, online courses, 'Python Crash Course' book
